@@ -14,16 +14,16 @@ public class TreeTraversal<T> {
 
     void inOrder(TreeNode<T> root){
         if(root == null) return;
-        preOrder(root.left);
+        inOrder(root.left);
         System.out.print(root.value+" ");
-        preOrder(root.right);
+        inOrder(root.right);
 
     }
 
     void postOrder(TreeNode<T> root){
         if(root == null) return;
-        preOrder(root.left);
-        preOrder(root.right);
+        postOrder(root.left);
+        postOrder(root.right);
         System.out.print(root.value+" ");
 
     }
