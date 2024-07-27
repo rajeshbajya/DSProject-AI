@@ -7,5 +7,6 @@ public class TrieNode {
     public TrieNode(){
         children = new TrieNode[26];
         isEndOfWord = false;
+        System.out.println("Created...");
     }
 }
