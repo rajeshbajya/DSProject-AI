@@ -1,6 +1,4 @@
-package org.ds.tree;
-
-import com.sun.source.tree.Tree;
+package org.ds.tree_generic;
 
 public class BST<T extends Comparable<T>> {
     private TreeNode<T> root;

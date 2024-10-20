@@ -1,4 +1,4 @@
-package org.ds.tree;
+package org.ds.tree_generic;
 
 public class TreeNode<T> {
     T value;

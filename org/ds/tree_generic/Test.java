@@ -1,4 +1,4 @@
-package org.ds.tree;
+package org.ds.tree_generic;
 
 public class Test {
   public static void main(String[] args){

@@ -1,6 +1,4 @@
-package org.ds.tree;
-
-import java.util.HashMap;
+package org.ds.tree_generic;
 
 public class TreeTraversal<T> {
 
