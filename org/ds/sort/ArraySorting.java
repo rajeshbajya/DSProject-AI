@@ -6,6 +6,9 @@ public class ArraySorting {
 
 
 
+    //
+    //after every interation, one element is put at right place, at end
+    //
     public void bubbleSort(int [] arr, boolean reverse){
        int n = arr.length;
 
